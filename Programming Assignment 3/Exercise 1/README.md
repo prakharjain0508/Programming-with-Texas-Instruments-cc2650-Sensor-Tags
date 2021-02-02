@@ -9,7 +9,7 @@ This file creates a simple received packet counter called reception-counter.c th
 - Each mote uses its LEDs to display the two (or three, if you have TelosB/Sky motes) least significant bits of its counter.
 
 
-## Make sure
+## Things to lookout for
 * The makefile and the C file are in the same directory
 * Within the makefile the path for the contiki-ng directory CONTIKI = ../path takes to the contiki-ng directory/../
 * The LEDs blink according to the following order depending on the least significant bits of the counter.
