@@ -6,7 +6,7 @@ use it to:
 * Test your implementation of arch-specific LED HAL components if you are
 developing a new port.
 
-This example assumes a device with at least 1 LED.
+This example assumes a device with at least 1 LED. The timing of the pattern is achieved using the event timer (etimer)
 
 # Supported devices
 This example is expected to work off-the-shelf on the following boards:
